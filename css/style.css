@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-color: blueviolet;
+}
+.button-see{
+    margin-left: 20px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: black;
+    font-weight: 600;
+    transition: 1s ease all;
+}
+.button-see:hover{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.btn-whet{
+    width: 100px;
+    transition: 1s ease all;
+}
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 3%;
+    margin-top: -2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 51px 0px rgb(0 0 0 / 15%);
+  }
+  
+  .content .content-overlay {
+    background: rgba(137, 43, 226, 0.699);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details i{
+    color: #fff;
+    font-size: 40px;
+  }
+  
+  .fadeIn-bottom{
+    top: 80%;
+  }
+  .title{
+      margin-top: 10px;
+      margin-left: 50px;
+  }
+  .title2{
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+.title3{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.backgroundd{
+    background-color: #f7fbfd;
+}
+.feature-box{
+    margin-bottom: 28px;
+    margin-left: 60px;
+}
+.gutters-40{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.footer{
+    background-color: blueviolet;
+}
